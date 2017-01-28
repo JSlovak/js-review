@@ -84,12 +84,15 @@ console.log (india);
 Add another popular tourist attraction to the india variable from position 1 of the index.
 (hint, it is not the push() method). Console log the variable.*/
 
-india[0]= "Taj Mahal";
+india.unshift(("Taj Mahal")[1]);
 console.log(india);
 
 
 /*9. Removing the last element from an array.
 Using the same india variable, remove the last element from the array. Console log the variable. */
+
+delete india[1];
+console.log (india);
 
 /*10. Removing an element from an array into a new array. 
 Removethe first two elements in the snacks array and return a new array.
