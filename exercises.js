@@ -84,7 +84,7 @@ console.log (india);
 Add another popular tourist attraction to the india variable from position 1 of the index.
 (hint, it is not the push() method). Console log the variable.*/
 
-india.unshift(("Taj Mahal")[1]);
+india.unshift ("Taj Mahal");
 console.log(india);
 
 
@@ -100,11 +100,18 @@ Console log the new variable. */
 
 var snacks = ["peanut butter cup oreo", "birthday cake oreo", "banana split oreo", "watermelon oreo", "cookie dough oreo", "creamsicle oreo"];
 
+console.log(snacks);
+var myFaveOreos = snacks.slice(0,1);
+console.log(myFaveOreos);
+
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
 b) a string and a number "three" and 3
 
 console log each variable*/
+
+
+
 
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
